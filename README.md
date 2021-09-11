@@ -1,3 +1,5 @@
+![INFORME COMPLETO](Informe.pdf)
+
 # Objetivo
 
 El objetivo  es resolver un problema de machine learning con los datos del TP1. Puntualmente, se debe predecir la variable `damage_grade` que representa el nivel de daño recibido por la edificación. El error de la solución se calculará con la métrica F1 Score, particularmente con la variación no binaria micro averaged F1 score.
