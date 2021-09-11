@@ -1,13 +1,13 @@
-Objetivo
+# Objetivo
 
-El objetivo del segundo trabajo práctico es resolver un problema de machine learning con los datos del TP1. Puntualmente, se debe predecir la variable `damage_grade` que representa el nivel de daño recibido por la edificación. El error de la solución se calculará con la métrica F1 Score, particularmente con la variación no binaria micro averaged F1 score.
+El objetivo  es resolver un problema de machine learning con los datos del TP1. Puntualmente, se debe predecir la variable `damage_grade` que representa el nivel de daño recibido por la edificación. El error de la solución se calculará con la métrica F1 Score, particularmente con la variación no binaria micro averaged F1 score.
 
 Podríamos pensar que una opción alternativa de métrica para el error sería promediar los F1 Score individuales de cada clasificación. El promedio de eso nos daría una métrica llamada macro-F1-score, que daría igual relevancia a todas los F1-score por igual sin importar su peso en la estimación.
  Ej: supongamos que F1-grade-1 = 50%; F1-grade-2 = 62% y F1-grade-3 = 34%. Macro-F1 = 48,66% 
 
-La alternativa utilizada para el TP,  micro-F1-score,  pone más énfasis en los labels más comunes logrando de esta manera que aquellos labels poco comunes no afecten a la métrica general. Se deja el siguiente paper para aquellos interesados en leer con más profundidad al respecto.
+La alternativa utilizada para el ejercicio,  micro-F1-score,  pone más énfasis en los labels más comunes logrando de esta manera que aquellos labels poco comunes no afecten a la métrica general. Se deja el siguiente paper para aquellos interesados en leer con más profundidad al respecto.
 
-El trabajo práctico se desarrollará en el contexto de una competencia de Driven Data. Para esto deben tener dos conjuntos de datos:
+El ejercicio se desarrollará en el contexto de una competencia de Driven Data. Para esto deben tener dos conjuntos de datos:
 
 El de entrenamiento `Train Values` con sus respectivos labels `Train Labels`, sobre el cual ajustarán su/s modelo/s junto con sus hiperparámetros.
 
@@ -15,7 +15,7 @@ El de test `Test Values`, sobre el cual realizarán predicciones y subirán los 
 
 También contarán con un modelo de submission que deberán respetar.
 
-Trabajo esperado
+## Trabajo esperado
 
 Se espera que armen un pipeline completo de machine learning experimentando en cada etapa. Esto quiere decir:
 
